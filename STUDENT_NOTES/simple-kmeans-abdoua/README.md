@@ -36,4 +36,10 @@ This generated a string of a random hexadecimal color value to assign to my clus
 
  There are way better ways to do this, as this range of colors is actually super limited. For example, I can't generate any turquiose hues because I only restrict myself to two letters in the randomization. I may come back to fix this in the future and apply it to other projects since it was pretty fun to come up with.
 
+
+# Graph dimensions are not to scale
+I found that the plot often scales the y-axis down more than the x-axis, so certain points can look closer to one center than they actually are. You can adjust this once you run plt.show() in the diagram.
+<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/2442c948-8a1e-45c2-bb5c-641e37517686" />
+
+
  Anyway feel free to test this code out. Adjust your parameters
